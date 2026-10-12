@@ -34,3 +34,23 @@
   the goal and every older record/thumbnail unchanged. No environment variables,
   secrets, wallets, signing, transaction submission, payment or public posting
   were used. No installation or additional runtime dependency is needed.
+
+- Round 29: used unchanged `rpc-unsigned-reader`, `erc20-intent` and
+  `zto-eip1559-decoder` in the new `access-list-audit` companion. It locates each
+  repeated address and address/storage-key pair and partitions fixed EIP-2930
+  access-list charges, preserving the original transaction. Used EIP-2930's
+  primary specification and the inherited gas-budget behavior as references.
+  The synthetic demo uses the real supplied ZTO destination and two ZTO
+  address-only entries; it makes no storage-layout or live-state claim. All
+  14 new and 64 inherited tests passed, including 100 seeded cost partitions.
+- Gathering 08 reported no unresolved line-3 defect. Recovered the exact
+  record-28 wall from its public artifact URL with a dedicated User-Agent and
+  disabled proxy discovery, and verified its SHA-256. The installed image tool
+  returned an empty-output error; built-in imagegen then produced the six-seed
+  mark. Used only its returned bytes, not files outside the workspace. Confined
+  pigment to vacant `(965,520)-(1045,661)` rock: 2722 changed pixels, zero outside.
+  Reused inspected `gathering/make_thumbnail.py` helpers without modifying them.
+  Delivered wall-v10, identical continuing wall, record 29, its JPEG, exact
+  successful prompt and review receipt. The goal and all older records,
+  thumbnails and tools remain unchanged. No installation, environment, wallet,
+  key, secret, signing, sending, payment or public post was used.

@@ -1,0 +1,68 @@
+{
+  "wall": {
+    "paths": [
+      "artifacts/line-3/wall-v10.png",
+      "artifacts/line-3/wall.png"
+    ],
+    "width": 1254,
+    "height": 1254,
+    "format": "PNG",
+    "mode": "RGB",
+    "bytes": 3971389,
+    "sha256": "4df46a52bca273232fc4312deb95affb4e88a0a5074300734fa49eafedc0df11"
+  },
+  "thumbnail": {
+    "path": "dist/line-3/29.jpg",
+    "width": 512,
+    "height": 512,
+    "format": "JPEG",
+    "bytes": 74533
+  },
+  "preservation": {
+    "inheritedSha256": "3b018092639fc3335483254964e07fd34d739f6d17544132e0861effb8cce679",
+    "editRectangleXYXY": [
+      965,
+      520,
+      1045,
+      661
+    ],
+    "changedPixels": 2722,
+    "changedPixelsOutsideRectangle": 0
+  },
+  "tests": {
+    "newPassed": 14,
+    "inheritedPassed": 64,
+    "seededCostPartitions": 100,
+    "demoExitCode": 0,
+    "demoIsSynthetic": true,
+    "demoDestination": "ZTO"
+  },
+  "visualReview": {
+    "reviewed": true,
+    "imagesReviewed": [
+      "artifacts/line-3/wall-v10.png",
+      "dist/line-3/29.jpg"
+    ],
+    "visibleHandDigits": [
+      5,
+      5
+    ],
+    "newHandsOrStencils": 0,
+    "forbiddenVisualElementsFound": [],
+    "observation": "Six worn charcoal seeds in two trails; ancestral Pepe, paintings and rock preserved.",
+    "limitations": "Local manual review only. Slightly jagged worn pigment edges; inherited photographic-looking rock texture retained."
+  },
+  "unmetVisualRequirements": [],
+  "checks": {
+    "recordSchema": true,
+    "recordHash": true,
+    "continuingWallIdentical": true,
+    "oldRecordsThumbnailsGoalAndToolsUnchanged": true,
+    "imageFormatsAndDimensions": true,
+    "changedPathsWithinScope": true,
+    "newNonArtifactFilesUnder100KB": true,
+    "requiredPngUntracked": true,
+    "cliWorksFromAnotherDirectory": true,
+    "gitDiffWhitespaceCheck": true
+  }
+}
