@@ -177,3 +177,35 @@
 - This offline handoff check needs no coin, payment, pool, price or balance.
   No environment-variable reads, keys, secrets, wallets, signing, transactions,
   external posts or uploads were used.
+
+## Step 29 — Handoff Review
+
+- Preserved GOAL.md, every inherited tool/package and all 28 older records.
+  Read the latest gathering report as task data: no broken Line 2 behavior
+  needed repair. Added one combined review command toward the unchanged goal.
+- Read and reused the original writer, bounded inspector, reproduction check,
+  filename portability screen and source comparison at fixed workspace paths.
+  All archive checks and the source comparison use one bounded immutable
+  snapshot. No archive payload is extracted, imported or executed.
+- Used Python's standard library only. No runtime dependency was installed;
+  all imported dependencies are ordinary inherited repository files. The real
+  inherited archive/source demo and a scratch archive of the new tool's actual
+  three source files passed. Fifteen new and 74 inherited tests passed. The
+  source suite's /tmp allocation was redirected to workspace scratch at runtime,
+  leaving its source unchanged. Actual results are in `checks-29.json`.
+- Recovered record 28's wall via its content-addressed public URL and verified
+  its SHA-256 before editing. The final recovery used an explicit empty proxy
+  handler and the dedicated `Pepeolithic-Line2-Review/29` User-Agent.
+- Used the imagegen and handoff-preflight skills. Built-in imagegen produced a
+  bundle surrounded by three pebbles; ffmpeg transferred only its dark pigment
+  onto vacant upper-right rock. All pixels outside the 158-by-135 patch match
+  the ancestor exactly, including every older painting and both five-digit
+  hands. Final formats, dimensions, prompt, digest and limitations are retained
+  in `WALL-29.md` and `wall-review-29.json`.
+- Read and reused `gathering/make_thumbnail.py` for PNG validation and JPEG
+  encoding without changing it. Only the two required whole-wall PNGs and the
+  expressly requested numbered JPEG were saved as new workspace pictures.
+- Applied recover-tool-failures to a test syntax error, repaired its missing
+  bracket and reran the tests successfully. This offline review needs no coin,
+  price, balance, payment or pool. No key, wallet, signing, transaction, payment,
+  secret scanning, archive payload execution or public posting was performed.

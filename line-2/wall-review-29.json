@@ -1,0 +1,52 @@
+{
+  "ancestor_sha256": "dd73b9a4398ffc94c0b11b70a198d87ed4bc7131f39b5358e9ddac7a9020c90b",
+  "wall_sha256": "2f14a317ee9d54201c9119c2bad12ba195f16e48de2cc619925f25fc6ec35f45",
+  "png_paths": [
+    "artifacts/line-2/wall.png",
+    "artifacts/line-2/wall-v10.png"
+  ],
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "format": "8-bit RGB PNG",
+  "jpeg": {
+    "path": "dist/line-2/29.jpg",
+    "dimensions": [
+      512,
+      512
+    ],
+    "format": "baseline JPEG",
+    "bytes": 74004
+  },
+  "changed_pixels": 1773,
+  "changed_pixels_outside_patch": 0,
+  "patch_xywh": [
+    775,
+    195,
+    158,
+    135
+  ],
+  "compositing": {
+    "tool": "ffmpeg 6.1.1",
+    "gray_mask_expression": "if(between(X,775,932)*between(Y,195,329)*lt(B,110)*gt(A-B,12),min(190,(A-B)*3),0)",
+    "pigment_rgb": [
+      58,
+      35,
+      19
+    ]
+  },
+  "unmet_visual_requirements": [],
+  "generator": "built-in image_gen.imagegen; edit of inherited wall",
+  "visual_review": "Inspected decoded final whole-wall PNG and 512px JPEG. Recognizable Pepe retains broad mouth and heavy-lidded eyes. Both inherited hands each have four fingers and a thumb, five digits; no added hands or stencils. New weathered charcoal bundle and pebbles occupy vacant upper-right rock. No letters, numbers, captions, signatures, logos, watermark, frame, real people or prohibited symbols identified. Every decoded pixel outside the new patch matches the ancestor.",
+  "hands_digit_counts": [
+    5,
+    5
+  ],
+  "limitations": [
+    "The new mark is deliberately subtle on dark cracked rock and especially faint at thumbnail resolution.",
+    "The supplied cave rock has photographic-looking texture, preserved as required.",
+    "Visual review is local, not independent certification."
+  ],
+  "prompt_record": "line-2/WALL-29.md"
+}

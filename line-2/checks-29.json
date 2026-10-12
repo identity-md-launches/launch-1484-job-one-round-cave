@@ -1,0 +1,177 @@
+{
+  "tests": [
+    {
+      "command": "python3 -B line-2/tools/handoff-review/test_review.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "...............\n----------------------------------------------------------------------\nRan 15 tests in 0.830s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B line-2/tools/handoff-inspect/test_inspect.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "...................\n----------------------------------------------------------------------\nRan 19 tests in 0.036s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B line-2/tools/handoff-reproduce/test_reproduce.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "...........\n----------------------------------------------------------------------\nRan 11 tests in 0.799s\n\nOK\n"
+    },
+    {
+      "command": "python3 -B line-2/tools/handoff-portability/test_portability.py",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ".......................\n----------------------------------------------------------------------\nRan 23 tests in 0.145s\n\nOK\n"
+    },
+    {
+      "command": "source suite via scratch-only TemporaryDirectory adapter",
+      "tests_run": 21,
+      "exit_code": 0,
+      "stderr": ".....................\n----------------------------------------------------------------------\nRan 21 tests in 0.092s\n\nOK\n"
+    }
+  ],
+  "demo": {
+    "archive_bytes": 13181,
+    "archive_sha256": "aaa03a258268263186f610e17ad8ede6851c8597b70a7ec29ae6b283f72f60bb",
+    "checks": {
+      "integrity": {
+        "status": "pass"
+      },
+      "portability": {
+        "issues": [],
+        "profile": "conservative-filenames-v2",
+        "status": "pass"
+      },
+      "reproduction": {
+        "receipt": {
+          "archive_bytes": 13181,
+          "archive_sha256": "aaa03a258268263186f610e17ad8ede6851c8597b70a7ec29ae6b283f72f60bb",
+          "byte_reproducible": true,
+          "file_count": 2,
+          "first_difference_offset": null,
+          "format": "handoff-reproduction-v1",
+          "payload_bytes": 12603,
+          "profile": "original-handoff-v1-writer",
+          "rebuilt_bytes": 13181,
+          "rebuilt_sha256": "aaa03a258268263186f610e17ad8ede6851c8597b70a7ec29ae6b283f72f60bb",
+          "trusted_digest_matched": false,
+          "verified": true
+        },
+        "status": "pass"
+      },
+      "source": {
+        "directory": "line-2/tools/handoff",
+        "receipt": {
+          "archive_sha256": "aaa03a258268263186f610e17ad8ede6851c8597b70a7ec29ae6b283f72f60bb",
+          "archive_verified": true,
+          "changed": [],
+          "counts": {
+            "changed": 0,
+            "missing_from_source": 0,
+            "omitted_from_archive": 0,
+            "unchanged": 2
+          },
+          "format": "handoff-source-check-v1",
+          "matches_source": true,
+          "missing_from_source": [],
+          "note": "Byte equality is not authenticity or a safety review. Empty directories are not payloads. Use a stable workspace; this is not an atomic snapshot.",
+          "omitted_from_archive": [],
+          "trusted_digest_matched": false,
+          "unchanged": [
+            "README.md",
+            "handoff.py"
+          ]
+        },
+        "status": "pass"
+      }
+    },
+    "demo": "actual inherited archive and source; no files written",
+    "failed_checks": [],
+    "file_count": 2,
+    "format": "handoff-review-v1",
+    "limits": {
+      "archive_bytes": 69206016,
+      "files": 1000,
+      "manifest_bytes": 524288,
+      "metadata_bytes": 524288,
+      "payload_bytes": 67108864
+    },
+    "note": "Selected format checks only: no sender authentication, payload safety assessment, build reproduction or extraction test. Source scans require a stable workspace and are not atomic snapshots.",
+    "payload_bytes": 12603,
+    "selected_checks_passed": true,
+    "trusted_digest_matched": false
+  },
+  "total_tests_passed": 89,
+  "new_tool_source_review": {
+    "format": "handoff-review-v1",
+    "selected_checks_passed": true,
+    "failed_checks": [],
+    "archive_sha256": "de5ed6dbeaf2710589b4aaf393aac7245388efe4f9d8de46d8c427f107b038af",
+    "archive_bytes": 19474,
+    "file_count": 3,
+    "payload_bytes": 18680,
+    "trusted_digest_matched": false,
+    "limits": {
+      "archive_bytes": 69206016,
+      "payload_bytes": 67108864,
+      "manifest_bytes": 524288,
+      "metadata_bytes": 524288,
+      "files": 1000
+    },
+    "checks": {
+      "integrity": {
+        "status": "pass"
+      },
+      "reproduction": {
+        "status": "pass",
+        "receipt": {
+          "format": "handoff-reproduction-v1",
+          "profile": "original-handoff-v1-writer",
+          "verified": true,
+          "byte_reproducible": true,
+          "archive_sha256": "de5ed6dbeaf2710589b4aaf393aac7245388efe4f9d8de46d8c427f107b038af",
+          "archive_bytes": 19474,
+          "rebuilt_sha256": "de5ed6dbeaf2710589b4aaf393aac7245388efe4f9d8de46d8c427f107b038af",
+          "rebuilt_bytes": 19474,
+          "file_count": 3,
+          "payload_bytes": 18680,
+          "first_difference_offset": null,
+          "trusted_digest_matched": false
+        }
+      },
+      "portability": {
+        "status": "pass",
+        "profile": "conservative-filenames-v2",
+        "issues": []
+      },
+      "source": {
+        "status": "pass",
+        "directory": "line-2/tools/handoff-review",
+        "receipt": {
+          "format": "handoff-source-check-v1",
+          "archive_verified": true,
+          "archive_sha256": "de5ed6dbeaf2710589b4aaf393aac7245388efe4f9d8de46d8c427f107b038af",
+          "trusted_digest_matched": false,
+          "matches_source": true,
+          "counts": {
+            "missing_from_source": 0,
+            "omitted_from_archive": 0,
+            "changed": 0,
+            "unchanged": 3
+          },
+          "missing_from_source": [],
+          "omitted_from_archive": [],
+          "changed": [],
+          "unchanged": [
+            "README.md",
+            "review.py",
+            "test_review.py"
+          ],
+          "note": "Byte equality is not authenticity or a safety review. Empty directories are not payloads. Use a stable workspace; this is not an atomic snapshot."
+        }
+      }
+    },
+    "note": "Selected format checks only: no sender authentication, payload safety assessment, build reproduction or extraction test. Source scans require a stable workspace and are not atomic snapshots."
+  }
+}
