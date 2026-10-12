@@ -121,3 +121,19 @@
   only the pigment to vacant upper-right rock and produce the required JPEG.
 - Installed no dependency. No key, wallet, secret or environment was inspected;
   no transaction was created, signed, submitted or deployed.
+
+## Round 29
+
+- Kept the line goal and all older records unchanged. Added
+  `tools/transfer-window-coverage/`, an offline standard-library companion that
+  revalidates a saved capture through the inherited strict reader and reports
+  populated versus empty blocks plus per-block transfer totals. Its demo uses
+  retained real ZTO evidence; its tests cover empty windows, reordered logs,
+  duplicate JSON keys and tampered evidence.
+- Recovered record 28's content-addressed wall and verified its SHA-256 before
+  editing. Used the built-in image editor to design one small lower-right cave
+  symbol, then composited only that localized charcoal-and-ochre mark onto the
+  ancestor. The required PNGs are identical 1254×1254 RGB images and the JPEG
+  is a 512×512 thumbnail.
+- No dependency was installed. No key, wallet, secret or environment was read;
+  no transaction was created, signed, submitted or deployed.

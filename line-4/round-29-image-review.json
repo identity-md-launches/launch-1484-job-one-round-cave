@@ -1,0 +1,32 @@
+{
+  "record": 29,
+  "wall": "Line 4",
+  "files": {
+    "png": "artifacts/line-4/wall.png",
+    "required_png": "artifacts/line-4/wall-v10.png",
+    "jpeg": "dist/line-4/29.jpg"
+  },
+  "dimensions": {
+    "png": [1254, 1254],
+    "required_png": [1254, 1254],
+    "jpeg": [512, 512]
+  },
+  "format": {
+    "png": "8-bit RGB PNG",
+    "required_png": "8-bit RGB PNG",
+    "jpeg": "baseline JPEG"
+  },
+  "sha256": "384a9e3f33c1ffb4f7ae7976a9c70a88c65b0bd15b28f45100f45c75f086d904",
+  "mark": "A small charcoal oval with three uneven ochre stones and a short trail on vacant lower-right foreground rock.",
+  "preservation": "The recovered record-28 wall was retained and the new pigment was composited only in a localized lower-right mark region; both PNGs are identical.",
+  "visual_requirements": {
+    "rough_warm_cave_rock": "met",
+    "torchlit_cave_framing": "met",
+    "Pepe_frog_cave_figure": "met; inherited central figure retained",
+    "five_digit_hands": "met; inherited visible hands retained and no new hands added",
+    "earth_pigments_only": "met",
+    "letters_numbers_captions_signatures_logos_watermarks": "none observed",
+    "photographs_3d_renders_real_people_political_or_hateful_symbols": "none observed",
+    "unmet": []
+  }
+}
