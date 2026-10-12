@@ -1,0 +1,24 @@
+{
+  "source_record": 28,
+  "record_number": 29,
+  "source_sha256": "01f39b17496ce839124800612ec689d254aaec974740cba8a8289ef5f147e04e",
+  "wall_sha256": "1476d8d9e63de6ceb4ec2a01a9923b14c460a4c9a4cfa9a98f1ba7317e1fcca5",
+  "png_dimensions": [1254, 1254],
+  "png_format": "8-bit RGB PNG",
+  "png_bytes": 3833464,
+  "jpeg_dimensions": [512, 512],
+  "jpeg_format": "baseline JPEG",
+  "jpeg_bytes": 71585,
+  "addition_rectangle": [515, 915, 250, 120],
+  "changed_pixels": 6752,
+  "changed_pixels_outside_rectangle": 0,
+  "visual_review": {
+    "pepe_cave_figure": "Inherited central Pepe retains heavy-lidded eyes, a wide mouth, and four finger strokes plus one opposing thumb on each hand.",
+    "new_hands_or_stencils": "None added.",
+    "text_or_prohibited_marks_added": "None seen.",
+    "unmet_visual_requirements": [
+      "Inherited cave background is photographic-looking; preserved to retain the wall."
+    ],
+    "limitation": "The new mark is small and may be subdued at thumbnail size; visual review is local, not independent certification."
+  }
+}
