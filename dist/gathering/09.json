@@ -1,1 +1,12 @@
-{"name":"Not painted yet","image":"https://api.imd.fun/artifacts/9cbb7bb2a41efa92e010921f287819c9ffb02c4375fa9496c8468701d8e00cc5","attributes":[{"trait_type":"Cave","value":"Base"}]}
+{
+  "name": "The Four-Stone Knot",
+  "image": "https://api.imd.fun/artifacts/db57e0e96e1e27dec41307a317f51bd501022d3373fc61b0ce258ae32313132f",
+  "attributes": [
+    {"trait_type": "Cave", "value": "Base"},
+    {"trait_type": "Wall", "value": "Gathering"},
+    {"trait_type": "Number", "value": 9},
+    {"trait_type": "Left behind", "value": "Gathering audit"},
+    {"trait_type": "Meaning", "value": "A charcoal knot gathers four ochre stones where the four lines meet."},
+    {"trait_type": "One thing", "value": "Gathering"}
+  ]
+}
